@@ -17,6 +17,8 @@ const App = () => {
     setIndex((previous) => previous + 1)
   }
   return (
+    <>
+    In index: {index}: {direction[index]}
     <Box
       w="50%"
       h="300px"
@@ -29,6 +31,7 @@ const App = () => {
         onClick={() => rotateGradient()}
       >Click Click</Button>
     </Box>
+    </>
   )
 }
 
