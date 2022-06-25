@@ -24,6 +24,29 @@ const CenterSquareCircle = () => {
                     {smallCircle >=450 ? <p>Hello</p> : ""}
                 </Circle>
             </Circle>
+            <Square bgColor="gray.100">
+                <Square bgColor="pink.600" width="200px" height="200px">
+                    <Center>
+                        <Square
+                            bgColor="pink.400"
+                            width="100px"
+                            height="100px"
+                            margTop="auto"
+                        >
+                            <Center>
+                                <Circle
+                                    as="button"
+                                    width="50px"
+                                    height="50px"
+                                    bgColor="pink.200"
+                                >
+                                    Box
+                                </Circle>
+                            </Center>
+                        </Square>
+                    </Center>
+                </Square>
+            </Square>
         </>
     )
 }
