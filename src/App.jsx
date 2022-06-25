@@ -4,6 +4,7 @@ import AspectRatioVideo from "./components/AspectRatioVideo"
 import AspectRatioPicture from "./components/AspectRatioPicture"
 import BoxCard from "./components/BoxCard"
 import CenterSquareCircle from "./components/CenterSquareCircle"
+import ContainerStyle from "./components/ContainerStyle"
 const App = () => {
   return (
     <>
@@ -11,7 +12,8 @@ const App = () => {
     {/* <AspectRatioVideo /> */}
     {/* <AspectRatioPicture /> */}
     {/* <BoxCard /> */}
-    <CenterSquareCircle />
+    {/* <CenterSquareCircle /> */}
+    <ContainerStyle />
     </>
   )
 }
