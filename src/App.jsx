@@ -7,6 +7,7 @@ import CenterSquareCircle from "./components/CenterSquareCircle"
 import ContainerStyle from "./components/ContainerStyle"
 import FlexComponent from "./components/FlexComponent"
 import GridComponent from "./components/GridComponent"
+import SimpleGridComponent from "./components/SimpleGridComponent"
 const App = () => {
   return (
     <>
@@ -17,7 +18,8 @@ const App = () => {
       {/* <CenterSquareCircle /> */}
       {/* <ContainerStyle /> */}
       {/* <FlexComponent /> */}
-      <GridComponent />
+      {/* <GridComponent /> */}
+      <SimpleGridComponent />
     </>
   )
 }
