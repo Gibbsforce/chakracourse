@@ -1,12 +1,8 @@
 import { useState } from "react"
 import { Box, Stack, Button, Spinner, ButtonGroup, HStack, Circle, Image, Square, VStack, Text } from "@chakra-ui/react"
-import { PhoneIcon, AddIcon, WarningIcon } from "@chakra-ui/icons"
+import { PhoneIcon, WarningIcon } from "@chakra-ui/icons"
 // Pic
 import pokemonPikachuRaichu from "../../assets/pokemonPikachuRaichu.jpg"
-import pokemonCharizard from "../../assets/pokemonCharizard.jpg"
-import pokemonKoraidonMiraidon from "../../assets/pokemonKoraidonMiraidon.png"
-import pokemonPikachuSobbleScorbunnyGrookey from "../../assets/pokemonPikachuSobbleScorbunnyGrookey.jpg"
-import pokemonQuaxlySprigatitoFuecoco from "../../assets/pokemonQuaxlySprigatitoFuecoco.jpg"
 const ButtonComponent = () => {
     const [value, setValue]= useState(Boolean)
     return (
