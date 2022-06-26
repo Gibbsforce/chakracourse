@@ -11,6 +11,7 @@ import SimpleGridComponent from "./components/SimpleGridComponent"
 import StackComponent from "./components/StackComponent"
 import WrapComponent from "./components/WrapComponent"
 import ButtonComponent from "./components/ButtonComponent"
+import CheckboxComponent from "./components/CheckboxComponent"
 const App = () => {
   return (
     <>
@@ -25,7 +26,8 @@ const App = () => {
       {/* <SimpleGridComponent /> */}
       {/* <StackComponent /> */}
       {/* <WrapComponent /> */}
-      <ButtonComponent />
+      {/* <ButtonComponent /> */}
+      <CheckboxComponent />
     </>
   )
 }
