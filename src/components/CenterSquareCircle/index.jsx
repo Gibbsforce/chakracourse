@@ -31,7 +31,7 @@ const CenterSquareCircle = () => {
                             bgColor="pink.400"
                             width="100px"
                             height="100px"
-                            margTop="auto"
+                            marginTop="auto"
                         >
                             <Center>
                                 <Circle
