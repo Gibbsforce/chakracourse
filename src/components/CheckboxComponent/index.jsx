@@ -1,8 +1,6 @@
-import { useState } from "react"
 import { VStack, Checkbox } from "@chakra-ui/react"
 import { PhoneIcon } from "@chakra-ui/icons"
 // Pic
-import pokemonPikachuRaichu from "../../assets/pokemonPikachuRaichu.jpg"
 const CheckboxComponent = () => {
     return (
         <>
