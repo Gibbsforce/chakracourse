@@ -1,7 +1,5 @@
 import { useState } from "react"
 import { Box, Grid, GridItem, Button, color } from "@chakra-ui/react"
-// Pic
-import pokemonPikachuRaichu from "../../assets/pokemonPikachuRaichu.jpg"
 const GridComponent = () => {
     const colors = ["gray", "teal", "purple", "pink", "red", "orange"]
     const [index, setIndex] = useState(Number)
