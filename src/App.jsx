@@ -8,6 +8,7 @@ import ContainerStyle from "./components/ContainerStyle"
 import FlexComponent from "./components/FlexComponent"
 import GridComponent from "./components/GridComponent"
 import SimpleGridComponent from "./components/SimpleGridComponent"
+import StackComponent from "./components/StackComponent"
 const App = () => {
   return (
     <>
@@ -19,7 +20,8 @@ const App = () => {
       {/* <ContainerStyle /> */}
       {/* <FlexComponent /> */}
       {/* <GridComponent /> */}
-      <SimpleGridComponent />
+      {/* <SimpleGridComponent /> */}
+      <StackComponent />
     </>
   )
 }
