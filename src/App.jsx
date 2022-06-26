@@ -10,6 +10,7 @@ import GridComponent from "./components/GridComponent"
 import SimpleGridComponent from "./components/SimpleGridComponent"
 import StackComponent from "./components/StackComponent"
 import WrapComponent from "./components/WrapComponent"
+import ButtonComponent from "./components/ButtonComponent"
 const App = () => {
   return (
     <>
@@ -23,7 +24,8 @@ const App = () => {
       {/* <GridComponent /> */}
       {/* <SimpleGridComponent /> */}
       {/* <StackComponent /> */}
-      <WrapComponent />
+      {/* <WrapComponent /> */}
+      <ButtonComponent />
     </>
   )
 }
