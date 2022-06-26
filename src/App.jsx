@@ -12,6 +12,7 @@ import StackComponent from "./components/StackComponent"
 import WrapComponent from "./components/WrapComponent"
 import ButtonComponent from "./components/ButtonComponent"
 import CheckboxComponent from "./components/CheckboxComponent"
+import EditableComponent from "./components/EditableComponent"
 const App = () => {
   return (
     <>
@@ -27,7 +28,8 @@ const App = () => {
       {/* <StackComponent /> */}
       {/* <WrapComponent /> */}
       {/* <ButtonComponent /> */}
-      <CheckboxComponent />
+      {/* <CheckboxComponent /> */}
+      <EditableComponent />
     </>
   )
 }
