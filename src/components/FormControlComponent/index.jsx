@@ -1,7 +1,5 @@
-import { useState } from "react";
 import { FormControl, FormLabel, Input, FormHelperText, Box, Center, Text, SimpleGrid, Button } from "@chakra-ui/react"
 const FormControlComponent = () => {
-    const [value, setValue] = useState("Enter a value")
     return (
         <>
             <Box bgColor="blue.50">
