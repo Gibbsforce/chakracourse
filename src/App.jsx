@@ -9,6 +9,7 @@ import FlexComponent from "./components/FlexComponent"
 import GridComponent from "./components/GridComponent"
 import SimpleGridComponent from "./components/SimpleGridComponent"
 import StackComponent from "./components/StackComponent"
+import WrapComponent from "./components/WrapComponent"
 const App = () => {
   return (
     <>
@@ -21,7 +22,8 @@ const App = () => {
       {/* <FlexComponent /> */}
       {/* <GridComponent /> */}
       {/* <SimpleGridComponent /> */}
-      <StackComponent />
+      {/* <StackComponent /> */}
+      <WrapComponent />
     </>
   )
 }
