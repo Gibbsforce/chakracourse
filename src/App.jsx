@@ -18,6 +18,7 @@ import IconButtonComponent from "./components/IconButtonComponent"
 import InputComponent from "./components/InputComponent"
 import InputNumberComponent from "./components/InputNumberComponent"
 import RadioButton from "./components/RadioButton"
+import SelectComponent from "./components/SelectComponent"
 const App = () => {
   return (
     <>
@@ -39,7 +40,8 @@ const App = () => {
       {/* <IconButtonComponent /> */}
       {/* <InputComponent /> */}
       {/* <InputNumberComponent /> */}
-      <RadioButton />
+      {/* <RadioButton /> */}
+      <SelectComponent />
     </>
   )
 }
