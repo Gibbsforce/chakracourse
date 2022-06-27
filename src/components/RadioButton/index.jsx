@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Box, Stack, RadioGroup, Radio, Text } from "@chakra-ui/react"
 const RadioButton = () => {
     const [value, setValue] = useState("1")
