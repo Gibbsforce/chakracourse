@@ -17,6 +17,7 @@ import FormControlComponent from "./components/FormControlComponent"
 import IconButtonComponent from "./components/IconButtonComponent"
 import InputComponent from "./components/InputComponent"
 import InputNumberComponent from "./components/InputNumberComponent"
+import RadioButton from "./components/RadioButton"
 const App = () => {
   return (
     <>
@@ -37,7 +38,8 @@ const App = () => {
       {/* <FormControlComponent /> */}
       {/* <IconButtonComponent /> */}
       {/* <InputComponent /> */}
-      <InputNumberComponent />
+      {/* <InputNumberComponent /> */}
+      <RadioButton />
     </>
   )
 }
