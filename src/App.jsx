@@ -15,6 +15,7 @@ import CheckboxComponent from "./components/CheckboxComponent"
 import EditableComponent from "./components/EditableComponent"
 import FormControlComponent from "./components/FormControlComponent"
 import IconButtonComponent from "./components/IconButtonComponent"
+import InputComponent from "./components/InputComponent"
 const App = () => {
   return (
     <>
@@ -33,7 +34,8 @@ const App = () => {
       {/* <CheckboxComponent /> */}
       {/* <EditableComponent /> */}
       {/* <FormControlComponent /> */}
-      <IconButtonComponent />
+      {/* <IconButtonComponent /> */}
+      <InputComponent />
     </>
   )
 }
